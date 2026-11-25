@@ -50,3 +50,5 @@
 @media (max-width:760px){.mcta{display:flex;gap:.6rem;position:fixed;left:0;right:0;bottom:0;z-index:95;padding:.7rem .9rem calc(.7rem + env(safe-area-inset-bottom,0px));background:#f6f2eaf2;backdrop-filter:blur(10px);border-top:1px solid var(--line);box-shadow:0 -8px 24px -18px #0c324366}.mcta .btn{flex:1}body.has-mcta{padding-bottom:76px}.has-mcta .to-top{bottom:88px}}
 .prose a.btn{color:var(--btn-fg);text-decoration:none}
 .meet .btn-primary,.page-cta .btn-primary{--btn-fg:#fff}
+
+@media (max-width:760px){.mcta{transform:translateY(110%);transition:transform .35s var(--ease)}.mcta.is-on{transform:none}}
